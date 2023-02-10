@@ -25,7 +25,6 @@ function PhoneCall() {
     setCallButton("Llamar");
     setPhoneNumber("");
   }
-
   useEffect(() => {
     if (isCalling) {
       const hangUpTimer = setTimeout(() => {
